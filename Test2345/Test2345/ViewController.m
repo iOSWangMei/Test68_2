@@ -19,6 +19,8 @@
     
     NSLog(@"2131456789");
     
+    NSLog(@"端午节即将到来!!!!!!");
+    
 }
 
 - (void)didReceiveMemoryWarning {
