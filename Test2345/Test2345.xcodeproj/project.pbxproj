@@ -13,6 +13,7 @@
 		0482E8BC1D068CF500FE1A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0482E8BA1D068CF500FE1A3A /* Main.storyboard */; };
 		0482E8BE1D068CF500FE1A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0482E8BD1D068CF500FE1A3A /* Assets.xcassets */; };
 		0482E8C11D068CF500FE1A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0482E8BF1D068CF500FE1A3A /* LaunchScreen.storyboard */; };
+		0482E8CA1D06978E00FE1A3A /* sdftgh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482E8C91D06978E00FE1A3A /* sdftgh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0482E8BD1D068CF500FE1A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0482E8C01D068CF500FE1A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0482E8C21D068CF500FE1A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0482E8C81D06978E00FE1A3A /* sdftgh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdftgh.h; sourceTree = "<group>"; };
+		0482E8C91D06978E00FE1A3A /* sdftgh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdftgh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				0482E8BF1D068CF500FE1A3A /* LaunchScreen.storyboard */,
 				0482E8C21D068CF500FE1A3A /* Info.plist */,
 				0482E8B11D068CF500FE1A3A /* Supporting Files */,
+				0482E8C81D06978E00FE1A3A /* sdftgh.h */,
+				0482E8C91D06978E00FE1A3A /* sdftgh.m */,
 			);
 			path = Test2345;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				0482E8B91D068CF500FE1A3A /* ViewController.m in Sources */,
 				0482E8B61D068CF500FE1A3A /* AppDelegate.m in Sources */,
 				0482E8B31D068CF500FE1A3A /* main.m in Sources */,
+				0482E8CA1D06978E00FE1A3A /* sdftgh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				0482E8C71D068CF500FE1A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
